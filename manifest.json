@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Inline Dictionary",
+  "version": "1.0",
+  "description": "Quickly get word definitions via context menu or Alt+S shortcut.",
+  "permissions": ["contextMenus", "scripting", "activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "lookup-selection": {
+      "suggested_key": {
+        "default": "Alt+S"
+      },
+      "description": "Look up the currently selected word"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}

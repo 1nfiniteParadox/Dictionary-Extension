@@ -37,8 +37,8 @@ Since this extension is not on the Chrome Web Store, you can install it manually
 ---
 
 ## 📸 Demo
-![".\demoimg\Screenshot 2025-09-17 141232.png"](Demo1)
-![".\demoimg\Screenshot 2025-09-17 141350.png"](Demo2)
+![Demo Image 1](/demoimg/Screenshot%202025-09-17%20141232.png)
+![Demo Image 2](/demoimg/Screenshot%202025-09-17%20141350.png)
 
 ---
 
